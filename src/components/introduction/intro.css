@@ -1,0 +1,65 @@
+.intro {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.intro p {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(18),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.container {
+    display: inline-block;
+
+}
+
+.scroll {
+    margin-top: -50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.scroll p {
+    background-color: rgb(240, 248, 255);
+    color: black;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: cursive;
+    box-shadow: inset;
+}
+
+.scroll_none {
+    display: none;
+}
